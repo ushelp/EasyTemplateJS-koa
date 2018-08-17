@@ -1,0 +1,8 @@
+<h1>Hello {=name}!</h1>
+<ul>
+%{
+	for(var i=0;i<list.length;i++){
+		out('<li>'+list[i].name+", "+list[i].sex+'</li>');	
+	}
+}%
+</ul>
